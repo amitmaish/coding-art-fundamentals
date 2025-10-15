@@ -13,11 +13,11 @@ function setup() {
   y = height / 2;
 
   colorMode(OKLCH);
-  background(95, 25, 92, 100);
+  background(0);
 }
 
 function draw() {
-  background(95, 25, 92, 0.0075);
+  background(0, 0, 0, 0.0075);
   moveCircle();
 
   noStroke();
