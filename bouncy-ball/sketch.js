@@ -13,16 +13,16 @@ function setup() {
   y = height / 2;
 
   colorMode(OKLCH);
-  background(30, 50, 4, 100);
+  background(95, 25, 92, 100);
 }
 
 function draw() {
-  background(30, 50, 4, 0.015);
+  background(95, 25, 92, 0.0075);
   moveCircle();
 
   noStroke();
   colorMode(OKLCH);
-  fill(random(60, 100), random(80, 100), random(0, 360));
+  fill(80, 100, random(0, 360));
   circle(x, y, RADIUS * 2);
 
   handleCollision();
