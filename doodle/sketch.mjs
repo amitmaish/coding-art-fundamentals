@@ -1,6 +1,5 @@
 // import { draw_bezier } from "./lines.mjs";
 
-import { Flower, random_flower } from "./flower.mjs";
 import { make_flowers } from "./grid.mjs";
 import { sleep } from "./utils.mjs";
 

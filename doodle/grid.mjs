@@ -29,7 +29,7 @@ export function make_flowers() {
       );
 
       var flower = random_flower({
-        num_petals: floor(random(5, 12)),
+        num_petals: floor(random(5, 10)),
         inner_radius: random(INNER_MIN, INNER_MAX),
         outer_radius: random(OUTER_MIN, OUTER_MAX),
         stroke_options: {
